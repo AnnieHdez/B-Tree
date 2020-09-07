@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyFinder.BTree&lt;T&gt;">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAIEQAAAAAgAAAAAAAIAAAQAAgIAAAACggAA=</HashCode>
+      <FileName>BTree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_cache" />
+      <Field Name="_root" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MyFinder.BTreeStringBased">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyFinder.BTreeLongBased">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyFinder.BTreeDateTimeBased">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyFinder.BTreeNode&lt;T&gt;">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAEABEChIEECAAAAAAAAAIAAAgAAAQAAA=</HashCode>
+      <FileName>BTreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyFinder.Cache&lt;T&gt;">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAEAAIAAAAAAAAAAAAEIABgAAIAAEAgASAAAQ=</HashCode>
+      <FileName>Cache.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_streamManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MyFinder.File" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAgAAEgAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>File.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyFinder.MyFinder" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQCAACAAAAEIAIAABAAAAAAAAAAIgAAgAAAAQCAAAA=</HashCode>
+      <FileName>MyFinder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyFinder.StreamManager">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAIQAAAgMAAAAAAAEAIAAAAAAAACCCAABQ=</HashCode>
+      <FileName>StreamManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
